@@ -1,0 +1,103 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #4287f5;
+}
+
+h2 {
+    color: #9ed97e;
+    background-color: #215703;
+    width:auto;
+    height: 40px;
+    margin-bottom: 5px;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-left: 5px;
+
+}
+
+p {
+    font-size: medium;
+
+}
+
+#destacadoVioleta {
+    color: #b21eba;
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+}
+
+.destacadoNaranja {
+    color: #fab339;
+    font-weight: bold;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+li {
+    display: inline;
+}
+
+li a{
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-color: #fdff8f;
+    color: #b00202;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    border-color: #b00202;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+
+li a:hover {
+    background-color:#dcde26;
+}
+
+/* .botoneraPrincipal {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.boton1 {
+    display: inline;
+}
+
+.boton1 a{
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-color: #fdff8f;
+    color: #b00202;
+    text-decoration: none;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    border-color: #b00202;
+    border-width: medium;
+    
+}
+
+.boton1 a:hover {
+    background-color:#dcde26;
+} 
+
+Implementacion por si se desea tener mas de 1 botonera con estilos distintos, para no ligar
+exclusivamente el estilo a la unordered list.
+
+*/
