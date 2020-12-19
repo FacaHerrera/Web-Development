@@ -1,0 +1,112 @@
+header, section, footer {
+    width: 960px; /* Vista escritorio */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header, #ImagenPrincipal, #ImagenPresentacion, #TextoPresentacion {
+    margin-bottom: 10px;
+}
+
+header {
+    height: 80px;
+    background-color: bisque;
+}
+
+#Inicio {
+    height: 800px;
+    background-color:floralwhite;
+}
+
+footer {
+    height: 180px;
+    background-color:indianred;
+}
+
+#Marca {
+    width: 310px;
+    height: 80px;
+    background-color: aquamarine;
+    float: left;
+}
+
+#BotoneraPrincipal {
+    width: 630px;
+    height: 80px;
+    background-color: lightcoral;
+    float: right;
+}
+
+#ImagenPrincipal {
+    width: 960px;
+    height: 250px;
+    background-color: darksalmon;
+}
+
+#TextoPresentacion {
+    width: 450px;
+    height: 200px;
+    background-color: indianred;
+    float: left;
+}
+
+#ImagenPresentacion {
+    width: 500px;
+    height: 200px;
+    background-color: brown;
+    float: right;
+}
+
+#Seccion1, #Seccion2, #Seccion3 {
+    width: 310px;
+    height: 320px;
+}
+
+#Seccion1, #Seccion2{
+    float: left;
+    margin-right: 15px;
+}
+
+#Seccion1 {
+    background-color:burlywood;
+}
+
+#Seccion2 {
+    background-color:blanchedalmond;
+}
+
+#Seccion3 {
+    background-color:lightpink;
+    float: right;
+}
+
+#Legales {
+    width: 480px;
+    height: 85px;
+    background-color: beige;
+    float: left;
+}
+
+#SocialMedia {
+    width: 480px;
+    height: 180px;
+    background-color: wheat;
+    float: right;
+}
+
+#InfoAdicional {
+    width: 480px;
+    height: 85px;
+    float: left;
+    background-color:brown;
+    margin-top: 10px;
+}
+
+/* 
+
+Propriedad Clear: Se utiliza para que una caja reconozca las estructuras float,
+tomando una caja que no necesita una alineacion ni a derecha ni a izquierda. Se
+usa como clear: both.
+
+*/
