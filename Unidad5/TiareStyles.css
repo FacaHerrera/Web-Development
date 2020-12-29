@@ -95,7 +95,7 @@ h1 {
 
 body {
     background-color: lemonchiffon;
-    background-image: url(img/Inicio/fondo.jpg);
+    background-image: url(img/inicio/fondo.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -198,12 +198,12 @@ h2, p {
 
 #Seccion2 {
     background-color:blanchedalmond;
-    background-image: url(img/Inicio/Mosaico1.jpg);
+    background-image: url(img/inicio/Mosaico1.jpg);
 }
 
 #Seccion3 {
     background-color: palevioletred;
-    background-image: url(img/Inicio/Mosaico2.jpg);
+    background-image: url(img/inicio/Mosaico2.jpg);
 }
 
 #Seccion4 {
@@ -212,12 +212,12 @@ h2, p {
 
 #Seccion5 {
     background-color: firebrick;
-    background-image: url(img/Inicio/Mosaico3.jpg);
+    background-image: url(img/inicio/Mosaico3.jpg);
 }
 
 #Seccion6 {
     background-color: lightcoral;
-    background-image: url(img/Inicio/Mosaico4.jpg);
+    background-image: url(img/inicio/Mosaico4.jpg);
 }
 
 #Seccion2, #Seccion3, #Seccion5, #Seccion6 {
