@@ -30,6 +30,7 @@ footer {
 /* Header Style */
 
 #Marca {
+    display: block;
     border:double 4px saddlebrown;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -54,6 +55,11 @@ h1 {
     font-size: 30px;
     margin: 0;
     line-height: 70px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: saddlebrown;
 }
 
 #BotoneraPrincipal {
@@ -139,13 +145,13 @@ body {
 #ImagenPrincipal {
     width: 960px;
     height: 250px;
-    background-color: darksalmon;
     background-image: url(img/inicio/Banner.jpg);
     background-size: cover;
     background-position: center;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 
 }
 
@@ -223,6 +229,7 @@ h2, p {
 #Seccion2, #Seccion3, #Seccion5, #Seccion6 {
     background-size: cover;
     background-position: center;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }
 
 /* Footer Style */
@@ -293,4 +300,65 @@ ul {
     padding: 0;
     margin: 0;
     margin-top: 10px;
+}
+
+/* Formato de subventanas */
+
+#TituloCatalogo, #CajaProductos, #CajaCursos, #TituloCursos, #CajaRegistro {
+    border:double 4px saddlebrown;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+}
+
+/* Catalogo y Cursos */
+
+#TituloCatalogo, #TituloCursos {
+    background-color: antiquewhite;
+    height: 100px;
+    margin-bottom: 10px;
+    width: 950px;
+}
+
+#CajaProductos,#CajaCursos {
+    background-color: antiquewhite;
+    width: 950px; /* Vista escritorio */
+    margin-left: auto;
+    margin-right: auto;
+    height: 780px;
+    margin-bottom: 10px;
+
+}
+
+/* Registro */
+
+#ImagenRegistro {
+    height: 300px;
+    width: 960px;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+    background-image: url(img/registro/PrincipalRegistro.jpg);
+    background-size: cover;
+    background-position: center;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+#CajaRegistro {
+    height: 490px;
+    width: 950px;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+form ul li {
+    margin-bottom: 10px;
+}
+
+form h1 {
+    text-align: left;
+    padding: 10px;
+    color: saddlebrown;
 }
